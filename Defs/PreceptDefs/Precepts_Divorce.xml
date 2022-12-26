@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Issue -->
+
+  <IssueDef>
+    <defName>Divorce</defName>
+    <label>divorce</label>
+    <iconPath>UI/Issues/Divorce</iconPath>
+  </IssueDef>
+
+  <!-- Precepts -->
+
+  <PreceptDef>
+    <defName>Divorce_Prohibited</defName>
+    <issue>Divorce</issue>
+    <label>prohibited</label>
+    <description>Until death do us part.</description>
+    <impact>Low</impact>
+  </PreceptDef>
+
+  <PreceptDef>
+    <defName>Divorce_Disapproved</defName>
+    <issue>Divorce</issue>
+    <label>disapproved</label>
+    <description>Divorce should be a last resort.</description>
+    <impact>Low</impact>
+  </PreceptDef>
+
+</Defs>

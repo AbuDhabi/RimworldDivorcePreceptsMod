@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Divorce Precepts</name>
+    <author>AbuDhabi</author>
+    <packageId>AbuDhabi.MiscMods.DivorcePrecepts</packageId>
+    <supportedVersions>
+        <li>1.4</li>
+    </supportedVersions>
+
+    <description>Adds an optional "Divorce" issue with precepts:
+- "Prohibited" (pawns with it will not initiate divorces).
+- "Disapproved" (likelihood of initiating divorce reduced to 20% normal).
+
+Requires Ideology.
+    </description>
+</ModMetaData>
