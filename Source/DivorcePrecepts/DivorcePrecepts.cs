@@ -6,9 +6,9 @@ using Verse;
 namespace DivorcePrecepts
 {
     [StaticConstructorOnStartup]
-    public static class DivorcePrecept
+    public static class DivorcePrecepts
     {
-        static DivorcePrecept() //our constructor
+        static DivorcePrecepts() //our constructor
         {
             var harmony = new Harmony("AbuDhabi.MiscMods.DivorcePrecepts");
             harmony.PatchAll(Assembly.GetExecutingAssembly());

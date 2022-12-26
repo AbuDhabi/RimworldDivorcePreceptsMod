@@ -7,8 +7,8 @@
     <ProjectGuid>{9EB3E077-F811-4071-B768-77C5BE324B6C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DivorcePrecept</RootNamespace>
-    <AssemblyName>DivorcePrecept</AssemblyName>
+    <RootNamespace>DivorcePrecepts</RootNamespace>
+    <AssemblyName>DivorcePrecepts</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
