@@ -24,13 +24,12 @@ namespace DivorcePrecepts
                 {
                     if (initiator.Ideo != null && initiator.Ideo.HasPrecept(PreceptDefOf.Divorce_Prohibited))
                     {
-                        Log.Message("Divorce prohibited for initiator. Chance marked down to 0.");
                         __result = 0f;
                     }
                     else if (initiator.Ideo != null && initiator.Ideo.HasPrecept(PreceptDefOf.Divorce_Disapproved))
                     {
-                        Log.Message("Divorce marked down to 20% original chance.");
-                        __result *= 0.2f;
+                        var newChance = __result * 0.5f;
+                        __result = newChance;
                     }
                 }
             }
